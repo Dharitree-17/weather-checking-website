@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    
+    background-image: url('https://www.clipartmax.com/png/middle/129-1297493_weather-forecast-weather-forecast-icons-png.png');
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-color: rgb(119, 218, 240);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+     
+    
+}
+
+.container {
+    background-color: #ccdce4;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(209, 55, 55, 0.786);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-family:'Lobster', cursive;
+}
+
+form {
+    margin-bottom: 70px;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #9db1c9;
+}
+
+#weather-result {
+    margin-top: 20px;
+}
